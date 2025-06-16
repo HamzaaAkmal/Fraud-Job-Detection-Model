@@ -14,11 +14,11 @@ st.markdown("Enter job details to detect if it's **fraudulent** or **legitimate*
 with st.form("job_form"):
     st.subheader("📋 Job Information")
     
-    title = st.text_input("Job Title", "")
-    description = st.text_area("Job Description", "")
-    requirements = st.text_area("Requirements", "")
-    benefits = st.text_area("Benefits", "")
-    company_profile = st.text_area("Company Profile", "")
+    title = st.text_input("Job Title", "Work From Home and Earn $5000 Weekly!!!")
+    description = st.text_area("Job Description", "No experience required. Just send your bank details.")
+    requirements = st.text_area("Requirements", "None")
+    benefits = st.text_area("Benefits", "Fast money, no investment")
+    company_profile = st.text_area("Company Profile", "Guaranteed 100% legit company.")
     
     st.subheader("🔢 Additional Fields")
     telecommuting = st.selectbox("Is it a remote job?", [0, 1])
