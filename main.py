@@ -29,8 +29,7 @@ with st.form("job_form"):
 
 if submitted:
     new_text = title + " " + description + " " + requirements + " " + benefits + " " + company_profile
-    -
-  
+    
     X_text = vectorizer.transform([new_text])
  
     X_numeric = np.array([[telecommuting, has_company_logo, has_questions]])
