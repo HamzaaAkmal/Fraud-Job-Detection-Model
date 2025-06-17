@@ -7,7 +7,7 @@ from scipy.sparse import hstack
 with open("svm_fraud_model.pkl", "rb") as f:
     model, vectorizer = pickle.load(f)
 
-st.set_page_config(page_title="🕵️‍♂️ Job Scam Detector", layout="centered")
+st.set_page_config(page_title="🕵️‍♂️ Fraud Job Detector", layout="centered")
 st.title("🚩 Job Posting Fraud Detector")
 st.markdown("Enter job details to detect if it's **fraudulent** or **legitimate**.")
 
